@@ -4,7 +4,7 @@ from google import genai
 from google.genai import types
 
 load_dotenv()
-client = genai.Client(api_key="AQ.Ab8RN6JVPpm750d7LofDZ08Vl-s-rJwnvYfQ2uywUt3I_5QL3w")
+client = genai.Client(api_key="AQ.Ab8RN6IiR0NkUSCktX8N1Ls_VGxbJ95li_mYDDwplwixTe1UxQ")
 
 # --- KNOWLEDGE BASE / TOOL DEFINITIONS ---
 def get_facility_info(sport_name: str) -> str:
